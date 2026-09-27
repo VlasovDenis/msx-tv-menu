@@ -40,3 +40,17 @@
                 "type": "default",
                 "layout": "8,1,4,4",
                 "color": "#276c69",
+                "icon": "#ffffff:play-circle-outline",
+                "iconSize": "large",
+                "title": "Россия К HD",
+                "titleFooter": "ПРЯМОЙ ЭФИР",
+                "action": "video:https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8",
+                "playerLabel": "Россия К HD"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
