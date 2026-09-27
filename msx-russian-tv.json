@@ -1,88 +1,42 @@
 {
-  "name": "Российское ТВ и видео",
-  "version": "1.0.0",
-  "headline": "ТВ и видео",
+  "name": "Российское ТВ",
+  "version": "2.0.0",
+  "headline": "РОССИЙСКОЕ ТВ",
+  "background": "https://msx.benzac.de/media/wallpaper1.jpg",
+  "style": "overlay",
   "menu": [
     {
-      "label": "Российское ТВ",
+      "label": "Прямой эфир",
+      "icon": "#ffffff:live-tv",
       "data": {
+        "type": "pages",
+        "headline": "Выбери канал",
         "pages": [
           {
             "items": [
               {
-                "type": "button",
-                "layout": "0,0,4,2",
-                "label": "Россия 1 HD",
-                "action": "video:https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8"
+                "type": "default",
+                "layout": "0,1,4,4",
+                "color": "#19477a",
+                "icon": "#ffffff:play-circle-outline",
+                "iconSize": "large",
+                "title": "Россия 1 HD",
+                "titleFooter": "ПРЯМОЙ ЭФИР",
+                "action": "video:https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8",
+                "playerLabel": "Россия 1 HD"
               },
               {
-                "type": "button",
-                "layout": "4,0,4,2",
-                "label": "Россия 24 HD",
-                "action": "video:https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8"
+                "type": "default",
+                "layout": "4,1,4,4",
+                "color": "#a8293c",
+                "icon": "#ffffff:play-circle-outline",
+                "iconSize": "large",
+                "title": "Россия 24 HD",
+                "titleFooter": "ПРЯМОЙ ЭФИР",
+                "action": "video:https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8",
+                "playerLabel": "Россия 24 HD"
               },
               {
-                "type": "button",
-                "layout": "8,0,4,2",
-                "label": "Россия К HD",
-                "action": "video:https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "label": "Официальные сайты",
-      "data": {
-        "pages": [
-          {
-            "items": [
-              {
-                "type": "button",
-                "layout": "0,0,4,2",
-                "label": "Смотрим",
-                "action": "link:https://smotrim.ru/"
-              },
-              {
-                "type": "button",
-                "layout": "4,0,4,2",
-                "label": "Первый канал",
-                "action": "link:https://www.1tv.ru/live"
-              },
-              {
-                "type": "button",
-                "layout": "8,0,4,2",
-                "label": "НТВ",
-                "action": "link:https://www.ntv.ru/air/"
-              },
-              {
-                "type": "button",
-                "layout": "0,2,4,2",
-                "label": "РБК",
-                "action": "link:https://tv.rbc.ru/"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "label": "Фильмы и сериалы",
-      "data": {
-        "pages": [
-          {
-            "items": [
-              {
-                "type": "button",
-                "layout": "0,0,4,2",
-                "label": "Lampa (каталог)",
-                "action": "link:https://lampa.mx/"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  ]
-}
+                "type": "default",
+                "layout": "8,1,4,4",
+                "color": "#276c69",
